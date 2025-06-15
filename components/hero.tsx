@@ -10,8 +10,10 @@ export default function Hero() {
           src="/mevan.jpg"
           alt="Malone Electric LLC service trucks"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
+          quality={100}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#1F2C4D]/95 via-[#1F2C4D]/80 to-[#1F2C4D]/95"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_#1F2C4D_100%)] opacity-70"></div>
