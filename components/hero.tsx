@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image with Gradient Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/trucks.png"
+          src="/mevan.jpg"
           alt="Malone Electric LLC service trucks"
           fill
           className="object-cover"
