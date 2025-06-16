@@ -1,15 +1,24 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       {/* Background Image with Gradient Overlay */}
-      <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: 'url("/mevan.jpg")',
-        }}
-      >
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/mevan.jpg"
+          alt="Malone Electric LLC service trucks"
+          fill
+          priority
+          quality={100}
+          className="object-cover"
+          sizes="100vw"
+          style={{
+            objectFit: 'cover',
+            objectPosition: 'center',
+          }}
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-[#1F2C4D]/95 via-[#1F2C4D]/80 to-[#1F2C4D]/95"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_#1F2C4D_100%)] opacity-70"></div>
       </div>
