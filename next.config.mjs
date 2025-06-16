@@ -15,6 +15,13 @@ const nextConfig = {
       },
     ],
   },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(webp|jpg|jpeg|png|gif)$/i,
+      type: 'asset/resource',
+    });
+    return config;
+  },
 }
 
 export default nextConfig
