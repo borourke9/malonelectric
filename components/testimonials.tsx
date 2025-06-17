@@ -4,19 +4,19 @@ import { Star } from "lucide-react"
 const testimonials = [
   {
     name: "Sarah Johnson",
-    location: "Downtown",
+    location: "Mackinaw City",
     rating: 5,
     text: "ElectricPro installed our EV charger quickly and professionally. The team was punctual, clean, and explained everything clearly. Highly recommend!",
   },
   {
     name: "Mike Chen",
-    location: "Westside",
+    location: "St. Ignace",
     rating: 5,
     text: "Had an electrical emergency on a Sunday night. They responded within an hour and fixed the issue safely. Outstanding service!",
   },
   {
     name: "Lisa Rodriguez",
-    location: "Northbrook",
+    location: "Sault St. Marie",
     rating: 5,
     text: "Professional panel upgrade for our home office. Fair pricing, quality work, and they cleaned up perfectly. Will use them again.",
   },
