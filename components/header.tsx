@@ -41,13 +41,13 @@ export default function Header() {
             <div className="relative w-16 h-16">
               <Image
                 src="/logo.png"
-                alt="Malone Electric LLC Logo"
+                alt="Malone Electrical LLC Logo"
                 fill
                 className="object-contain"
                 priority
               />
             </div>
-            <span className="text-2xl font-bold text-[#1F2C4D]">Malone Electric LLC</span>
+            <span className="text-2xl font-bold text-[#1F2C4D]">Malone Electrical LLC</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -103,7 +103,7 @@ export default function Header() {
           >
             <Phone className="h-5 w-5" />
             <span className="relative font-bold text-lg">
-              Call Now
+              (231) 818-1401
               <span className="absolute -bottom-0.5 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
             </span>
           </Link>
@@ -161,7 +161,7 @@ export default function Header() {
               >
                 <Phone className="h-5 w-5" />
                 <span className="relative font-bold text-lg">
-                  Call Now
+                  (231) 818-1401
                   <span className="absolute -bottom-0.5 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </span>
               </Link>

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Home, Building, AlertTriangle, Zap, Car, Lightbulb, Shield, Wrench } from "lucide-react"
+import { Home, Building, AlertTriangle, Zap, Car, Lightbulb, Shield, Anchor } from "lucide-react"
 
 const services = [
   {
@@ -38,9 +38,9 @@ const services = [
     description: "Comprehensive electrical safety inspections and code compliance checks.",
   },
   {
-    icon: Wrench,
-    title: "Maintenance",
-    description: "Regular electrical maintenance to prevent issues and ensure optimal performance.",
+    icon: Anchor,
+    title: "Marine Services",
+    description: "Specialized electrical services for boats and marine vessels, including dock power, shore power, and marine electrical systems.",
   },
 ]
 

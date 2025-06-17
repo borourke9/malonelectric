@@ -34,17 +34,23 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact Info</h3>
             <div className="space-y-3 text-sm">
-              <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-[#E94F1D]" />
-                <span>(231) 818-1401</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Mail className="h-4 w-4 text-[#E94F1D]" />
-                <span>info@maloneelectric.com</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <MapPin className="h-4 w-4 text-[#E94F1D]" />
-                <span>Cheboygan, MI</span>
+              <div className="flex flex-col space-y-2">
+                <div className="flex items-center space-x-2">
+                  <Phone className="h-4 w-4 text-[#E94F1D]" />
+                  <span>Kurt: (231) 818-1401</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Phone className="h-4 w-4 text-[#E94F1D]" />
+                  <span>Craig: (989) 329-4720</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Mail className="h-4 w-4 text-[#E94F1D]" />
+                  <span>Kurtmalone7@gmail.com</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Mail className="h-4 w-4 text-[#E94F1D]" />
+                  <span>Cnjm@charter.net</span>
+                </div>
               </div>
             </div>
             <div className="pt-4">
@@ -58,7 +64,7 @@ export default function Footer() {
                 <p>Sault St. Marie</p>
                 <p>Indian River</p>
                 <p>Pelston</p>
-                <p>Alanson</p>
+                <p>Cedarville</p>
               </div>
             </div>
           </div>

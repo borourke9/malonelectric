@@ -6,7 +6,7 @@ const serviceLocations = [
   { name: "Sault St. Marie", lat: 46.4953, lng: -84.3453 },
   { name: "Indian River", lat: 45.4136, lng: -84.6125 },
   { name: "Pelston", lat: 45.5528, lng: -84.7839 },
-  { name: "Alanson", lat: 45.4406, lng: -84.7878 }
+  { name: "Cedarville", lat: 45.4406, lng: -84.7878 }
 ]
 
 export default function ServiceArea() {
@@ -44,19 +44,15 @@ export default function ServiceArea() {
             </div>
           </div>
 
-          <div className="bg-white p-4 rounded-lg shadow-md">
-            <div className="relative w-full h-[500px] rounded-lg overflow-hidden">
-              <iframe
-                src={`https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d43551.123456789!2d-84.5!3d45.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1234567890&markers=color:red%7C${serviceLocations.map(loc => `${loc.lat},${loc.lng}`).join('|')}`}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-lg"
-              ></iframe>
-            </div>
+          <div className="w-full max-w-3xl mx-auto rounded-lg overflow-hidden shadow-md border">
+            <iframe
+              src="https://www.google.com/maps/d/u/0/embed?mid=1LwaHDCue3sWTl_phe4Aqd4qSC-vD8zM&ehbc=2E312F&noprof=1"
+              width="640"
+              height="480"
+              className="w-full h-[480px] border-0"
+              allowFullScreen={true}
+              loading="lazy"
+            ></iframe>
           </div>
         </div>
       </div>
