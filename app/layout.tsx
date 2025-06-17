@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Malone Electric LLC',
+  title: 'Malone Electrical LLC',
   description: 'Licensed and insured electrical contractor offering residential, commercial, marine, and industrial services. Call now: 231-818-1401.',
   generator: 'Next.js',
   icons: {
