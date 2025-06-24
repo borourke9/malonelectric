@@ -65,6 +65,7 @@ export default function Footer() {
                 <p>Indian River</p>
                 <p>Pelston</p>
                 <p>Cedarville</p>
+                <p>Cheboygan</p>
               </div>
             </div>
           </div>

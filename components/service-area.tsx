@@ -6,7 +6,8 @@ const serviceLocations = [
   { name: "Sault St. Marie", lat: 46.4953, lng: -84.3453 },
   { name: "Indian River", lat: 45.4136, lng: -84.6125 },
   { name: "Pelston", lat: 45.5528, lng: -84.7839 },
-  { name: "Cedarville", lat: 45.4406, lng: -84.7878 }
+  { name: "Cedarville", lat: 45.4406, lng: -84.7878 },
+  { name: "Cheboygan", lat: 45.6464, lng: -84.4745 }
 ]
 
 export default function ServiceArea() {
