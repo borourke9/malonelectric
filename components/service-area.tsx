@@ -17,7 +17,7 @@ export default function ServiceArea() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Service Area</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We proudly serve the greater metropolitan area and surrounding communities with reliable electrical
+            We proudly serve Michigans northern lower and eastern upper peninsulas with reliable electrical
             services.
           </p>
         </div>
